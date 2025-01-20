@@ -57,14 +57,15 @@
 
 # Установка и запуск
 
-Для установки программы скачайте архив репозитория по ссылке или склонируйте его
+Для установки программы скачайте архив репозитория или склонируйте его по ссылке
 ```bash
-git clone https://github.com/idAndrey/shorl-url.git  
-cd short-url
+git clone https://github.com/idAndrey/wallet.git  
 ```  
 Для работы проекта требуется библиотека ***jackson-databind***  
 установка доступна с помощью интерфейса IntelliJ IDEA
 или по ссылке на <a href="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.18.2/">центральный репозиторий maven</a>
+
+Запуск программы осуществляется из среды разработки IntelliJ IDEA
 
 ## Структура проекта
 
@@ -73,6 +74,13 @@ Wallet
 ├─ pom.xml                 
 ├─ README.md               
 ├─ .gitignore
+├─ data
+│  ├─ categories
+│  │  └─ categories.json
+│  ├─ users
+│  │  └─ users.json
+│  └─ wallets
+│     └─ wallets.json
 ├─ lib
 │  ├─ jackson-annotations-2.18.2.jar
 │  ├─ jackson-core-2.18.2.jar
@@ -106,7 +114,7 @@ Wallet
             └─ ConsoleAppMain.java
 ```
 
-## Пример работы
+# Пример работы
 
 1. **Регистрация пользователя**
 
@@ -183,7 +191,7 @@ Wallet
 
    Все данные сохраняются автоматически при выходе из приложения.
 
-## Контакты и автор
+# Поддержка
 
 Если у вас возникли сложности или вопросы по использованию программы, создайте
 [обсуждение](https://github.com/idAndrey/issues/new/choose) в данном репозитории или свяжитесь с разработчиком по электронной почте <a href="mailto:mail@example.com"><ermakov.andrey@ya.ru></a> или телеграм @pc022979700, Андрей Ермаков.
