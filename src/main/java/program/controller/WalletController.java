@@ -21,7 +21,7 @@ public class WalletController {
     }
 
     public void start() {
-        System.out.println("Управление финансами:");
+        System.out.println("Управление кошельком:");
         while (true) {
             System.out.println("1. Создать кошелёк");
             System.out.println("2. Подсчитать доходы и расходы");

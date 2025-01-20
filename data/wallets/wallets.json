@@ -1,1 +1,47 @@
-[ ]
+[ {
+  "userId" : "user1",
+  "name" : "wallet",
+  "balance" : 102000.0,
+  "transactions" : [ {
+    "id" : "5f6c32cb-f0fe-4094-b219-6f55ef3209fa",
+    "amount" : 100000.0,
+    "category" : {
+      "userId" : "user1",
+      "name" : "salary",
+      "budgetLimit" : 500000.0
+    },
+    "date" : [ 2025, 1, 20 ]
+  }, {
+    "id" : "f8f5dd31-96fd-483e-a0ff-60fb2ac29d81",
+    "amount" : -500.0,
+    "category" : {
+      "userId" : "user1",
+      "name" : "food",
+      "budgetLimit" : 2000.0
+    },
+    "date" : [ 2025, 1, 20 ]
+  }, {
+    "id" : "5c69f313-963d-46e7-9d39-4da06179e044",
+    "amount" : -4000.0,
+    "category" : {
+      "userId" : "user1",
+      "name" : "rent",
+      "budgetLimit" : 3000.0
+    },
+    "date" : [ 2025, 1, 20 ]
+  }, {
+    "id" : "c1c57710-4d7a-44da-946e-38d0cfd96115",
+    "amount" : -500.0,
+    "category" : {
+      "userId" : "user1",
+      "name" : "entertainment",
+      "budgetLimit" : 1000.0
+    },
+    "date" : [ 2025, 1, 20 ]
+  } ]
+}, {
+  "userId" : "user2",
+  "name" : "wallet2",
+  "balance" : 8000.0,
+  "transactions" : [ ]
+} ]
